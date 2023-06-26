@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+          height: 100%;
+        }
+
+        .parallax {
+          background-image: url('/static/images/image5.jpg');
+
+          height: 100%;
+
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <p>In this example we have turned off parallax scrolling for mobile devices. It works as expected on all desktop screens sizes.</p>
+    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+
+    <div class="parallax"></div>
+
+        <div style="height:1000px;background-color:#c9c6c5;font-size:36px">
+        This div is just here to enable scrolling.
+        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+        </div>
+
+    <div class="parallax"></div>
+</body>
+
+</html>
